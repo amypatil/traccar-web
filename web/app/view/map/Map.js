@@ -77,9 +77,6 @@ Ext.define('Traccar.view.map.Map', {
             tooltip: Strings.deviceFollow,
             stateId: 'device-follow-button',
             toggleHandler: 'onFollowClick'
-        }, {
-            xtype: 'settingsMenu',
-            enableToggle: false
         }]
     },
 
